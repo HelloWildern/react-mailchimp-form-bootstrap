@@ -60,7 +60,7 @@ class Mailchimp extends React.Component {
           </Form.Group>
         ))}
         <Button
-          variant="light"
+          variant="dark"
           disabled={status === 'sending' || status === 'success'}
           type="submit"
           className={buttonClassName}
