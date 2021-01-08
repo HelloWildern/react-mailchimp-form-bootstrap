@@ -203,7 +203,7 @@
           _react2.default.createElement(
             _Button2.default,
             {
-              variant: 'light',
+              variant: 'dark',
               disabled: status === 'sending' || status === 'success',
               type: 'submit',
               className: buttonClassName
