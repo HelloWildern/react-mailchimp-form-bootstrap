@@ -1,13 +1,13 @@
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
-    define(['exports', 'react', 'jsonp', 'prop-types', 'react-bootstrap/Form', 'react-bootstrap/Button', './scss/imports.scss'], factory);
+    define(['exports', 'react', 'jsonp', 'prop-types', 'react-bootstrap/Form', 'react-bootstrap/Button'], factory);
   } else if (typeof exports !== "undefined") {
-    factory(exports, require('react'), require('jsonp'), require('prop-types'), require('react-bootstrap/Form'), require('react-bootstrap/Button'), require('./scss/imports.scss'));
+    factory(exports, require('react'), require('jsonp'), require('prop-types'), require('react-bootstrap/Form'), require('react-bootstrap/Button'));
   } else {
     var mod = {
       exports: {}
     };
-    factory(mod.exports, global.react, global.jsonp, global.propTypes, global.Form, global.Button, global.imports);
+    factory(mod.exports, global.react, global.jsonp, global.propTypes, global.Form, global.Button);
     global.index = mod.exports;
   }
 })(this, function (exports, _react, _jsonp, _propTypes, _Form, _Button) {
@@ -184,11 +184,11 @@
           fields.map(function (input) {
             return _react2.default.createElement(
               _Form2.default.Group,
-              { controlId: 'formName', className: 'h-100' },
+              { controlId: _this4.state[input.name].toLowerCase() },
               _react2.default.createElement(
                 _Form2.default.Label,
                 null,
-                {...input.name}
+                _this4.state[input.name]
               ),
               _react2.default.createElement(_Form2.default.Control, _extends({}, input, {
                 key: input.name,
