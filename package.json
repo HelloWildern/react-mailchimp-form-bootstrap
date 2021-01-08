@@ -1,5 +1,5 @@
 {
-  "name": "react-mailchimp-form",
+  "name": "@dom-pascal/react-mailchimp-form-bootstrap",
   "version": "1.0.1",
   "description": "React subscribe form for Mailchimp with Bootstrap",
   "main": "dist/index.js",
