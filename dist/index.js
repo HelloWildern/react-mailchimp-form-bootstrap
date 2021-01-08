@@ -184,11 +184,11 @@
           fields.map(function (input) {
             return _react2.default.createElement(
               _Form2.default.Group,
-              { controlId: _this4.state[input.name].toLowerCase() },
+              { controlId: input.name.toLowerCase() },
               _react2.default.createElement(
                 _Form2.default.Label,
                 null,
-                _this4.state[input.name]
+                input.name
               ),
               _react2.default.createElement(_Form2.default.Control, _extends({}, input, {
                 key: input.name,
