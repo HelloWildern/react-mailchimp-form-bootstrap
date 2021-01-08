@@ -1,4 +1,6 @@
 # react-mailchimp-form
+>Forked from https://github.com/gndx/react-mailchimp-form
+
 It provides an easy-to configure component to add a mailchimp form to your react project
 
 # Install 
