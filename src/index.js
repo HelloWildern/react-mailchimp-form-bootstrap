@@ -48,8 +48,8 @@ class Mailchimp extends React.Component {
     return (
       <Form onSubmit={this.handleSubmit.bind(this)} className={className}>
         {fields.map(input => (
-          <Form.Group controlId="formName" className="h-100">
-            <Form.Label>{...input.name}</Form.Label>
+          <Form.Group controlId={input.name.toLowerCase()}>
+            <Form.Label>{input.name}</Form.Label>
             <Form.Control
               {...input}
               key={input.name}
