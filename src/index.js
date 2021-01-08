@@ -3,7 +3,6 @@ import jsonp from 'jsonp'
 import PropTypes from 'prop-types'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import './scss/imports.scss'
 
 class Mailchimp extends React.Component {
   state = {}
