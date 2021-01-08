@@ -41,7 +41,9 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "jsonp": "^0.2.1"
+    "bootstrap": "^4.5.3",
+    "jsonp": "^0.2.1",
+    "react-bootstrap": "^1.4.3"
   },
   "peerDependencies": {
     "jsonp": "^0.2.1",
@@ -49,5 +51,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
