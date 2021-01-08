@@ -1,14 +1,14 @@
 {
   "name": "react-mailchimp-form",
   "version": "1.0.1",
-  "description": "React subscribe form for Mailchimp",
+  "description": "React subscribe form for Mailchimp with Bootstrap",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel --plugins transform-es2015-modules-umd src --ignore __tests__ --out-dir ./dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gndx/react-mailchimp-form.git"
+    "url": "git+https://github.com/dom-pascal/react-mailchimp-form-bootstrap"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gndx/react-mailchimp-form/issues"
+    "url": "https://github.com/dom-pascal/react-mailchimp-form-bootstrap/issues"
   },
-  "homepage": "https://github.com/gndx/react-mailchimp-form#readme",
+  "homepage": "https://github.com/dom-pascal/react-mailchimp-form-bootstrap#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
